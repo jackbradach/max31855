@@ -1,4 +1,4 @@
-# max31855
+# MAX31855
 Utility functions for talking to a Maxim 31855 Cold-Junction Compensated Thermocouple-to-Digital Converter.
 
 I pulled this out of another project since it was just about ready to stand alone.  These are a couple of
@@ -11,3 +11,6 @@ but they're not ready for prime time.  Luckily, they're nothing terribly special
 refresher on how the SPI controller worked. :)  As long as you have a function that can pull a
 slave-select line and do a SPI read, you can substitute your own functions easily enough in the
 max31855_read() function.
+
+- Jack Bradach
+2016/06/05
